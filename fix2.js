@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')({sigint: true})
 let nomes = ["Ana", "Vitoria", "Lukas jrn"];
 
 nomes.push("João", "Raull", "Ranye" )

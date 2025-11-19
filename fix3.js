@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')({sigint: true})
 let valores = [10,20,30,40];
 
 console.log(valores)

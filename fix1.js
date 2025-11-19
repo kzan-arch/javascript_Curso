@@ -1,4 +1,7 @@
+const prompt = require('prompt-sync')({sigint: true})
+
 let compras = ["Banana" ,"Arroz", "Miojo", "Farinha", "Presunto", "Macarrão", "Queijo", "Peixe", "Carne", "Batata-Palha"]
+
 
 compras.push("Mussarela")
 
