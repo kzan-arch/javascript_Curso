@@ -1,5 +1,5 @@
 const produtos = [
-  "Fone Bluetooth",
+"Fone Bluetooth",
   "Carregador USB",
   "Fone de Ouvido",
   "Caixa de Som",
