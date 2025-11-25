@@ -1,9 +1,8 @@
 const alunos = [
-  { nome: "Ana", nota: 7.5 },
-  { nome: "Bruno", nota: 5.2 },
-  { nome: "Carla", nota: 8.0 },
-  { nome: "Diego", nota: 4.9 },
-  { nome: "Eduarda", nota: 6.3 },
+  { nome: "Ana", nota: 8 },
+  { nome: "Pedro", nota: 5 },
+  { nome: "Carla", nota: 9 },
+  { nome: "Lucas", nota: 4 },
 ];
 
 const aprovados = alunos.filter(aluno => aluno.nota > 6);

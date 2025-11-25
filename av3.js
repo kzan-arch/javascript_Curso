@@ -1,8 +1,8 @@
 const usuarios = [
   { nome: "Ana", estado: "MG" },
-  { nome: "Carlos", estado: "SP" },
+  { nome: "Cauã", estado: "SP" },
   { nome: "Marina", estado: "MG" },
-  { nome: "Bruno", estado: "RJ" }
+  { nome: "Bianca", estado: "RJ" }
 ];
 
 const usuariosMG = usuarios.filter(u => u.estado === "MG");

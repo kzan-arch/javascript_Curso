@@ -1,13 +1,11 @@
+const prompt = require('prompt-sync')({ sigint: true })
 const produtos = [
-"Fone Bluetooth",
-  "Carregador USB",
-  "Fone de Ouvido",
-  "Caixa de Som",
-  "Adaptador P2"
+{id: 1, nome: "Fone Bluetooth"},
+  {id: 2, nome:"Carregador USB"},
+  {id: 3, nome:"Fone de Ouvido"},
+  {id: 4, nome: "Caixa de Som"},
+  {id: 5, nome: "Adaptador P2"},
 ];
 
-const resultado = produtos.filter(item => item.toLowerCase().includes("fone".toLowerCase())
-);
-
-console.log("Produtos que contêm 'Fone':");
-console.log(resultado);
+const resultado = produtos.filter(f => f.nome.includes("Fone") );
+console.table(resultado);
